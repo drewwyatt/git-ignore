@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { Box } from 'ink'
-import { Foo, Bar } from './components'
+import { Exec } from './components'
 
-const App: FC = () => (<Box flexDirection="column"><Foo /><Bar /></Box>)
+const App: FC = () => (<Box flexDirection="column"><Exec /></Box>)
 export default App
